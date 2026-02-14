@@ -1,2 +1,0 @@
-D:\PROGRA~2\Mingw\X86_64~1.0-R\mingw64\bin\ar.exe qc F:\Navigation_Learn\GNSS_INS\KF-GINS\lib\libabsl_spinlock_wait.a CMakeFiles/absl_spinlock_wait.dir/internal/spinlock_wait.cc.obj
-D:\PROGRA~2\Mingw\X86_64~1.0-R\mingw64\bin\ranlib.exe F:\Navigation_Learn\GNSS_INS\KF-GINS\lib\libabsl_spinlock_wait.a
