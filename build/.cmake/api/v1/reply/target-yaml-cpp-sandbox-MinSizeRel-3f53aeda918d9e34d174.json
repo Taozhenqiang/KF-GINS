@@ -1,0 +1,185 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "F:/Navigation_Learn/GNSS_INS/KF-GINS/bin/MinSizeRel/sandbox.exe"
+		},
+		{
+			"path" : "F:/Navigation_Learn/GNSS_INS/KF-GINS/bin/MinSizeRel/sandbox.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"ThirdParty/yaml-cpp-0.7.0/util/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 1,
+				"line" : 10,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 24,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 1,
+				"line" : 28,
+				"parent" : 3
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG -std:c++14"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "/utf-8"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 5,
+					"define" : "_USE_MATH_DEFINES=True"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "F:/Navigation_Learn/GNSS_INS/KF-GINS/src"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/eigen-3.3.9"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/yaml-cpp-0.7.0/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "yaml-cpp::@fc60dfe7eb953babab72"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "yaml-cpp-sandbox::@5df946d0ebc06290e688",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:x64 /INCREMENTAL:NO /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\lib\\MinSizeRel\\yaml-cpp.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "yaml-cpp-sandbox",
+	"nameOnDisk" : "sandbox.exe",
+	"paths" : 
+	{
+		"build" : "ThirdParty/yaml-cpp-0.7.0/util",
+		"source" : "ThirdParty/yaml-cpp-0.7.0/util"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ThirdParty/yaml-cpp-0.7.0/util/sandbox.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

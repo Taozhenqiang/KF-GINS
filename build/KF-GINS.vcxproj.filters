@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\src\fileio\fileloader.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\src\fileio\filesaver.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\src\kf-gins\gi_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\src\kf-gins\insmech.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\src\kf_gins.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{257078E4-AF95-38BB-8E2E-147C4A604A62}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -5,15 +5,15 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Windows 启动",
+            "name": "Windows KF-GINS",
             "type": "cppvsdbg",
             "request": "launch",
             "cwd": "${workspaceFolder}",
-            "program": "${workspaceFolder}/bin/KF-GINS",
+            "program": "${workspaceFolder}/bin/RelWithDebInfo/KF-GINS.exe",
             "args": ["./dataset/kf-gins.yaml"],
             "stopAtEntry": true,
             "environment": [],
-            "console": "integratedTerminal"
+            "console": "externalTerminal"
         },
         {
             "name": "Linux gdb 启动",

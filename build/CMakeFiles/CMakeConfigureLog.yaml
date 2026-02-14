@@ -1,0 +1,464 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Windows - 10.0.26100 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2026-02-14 20:13:17。
+      节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdC.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\.\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdC.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdC\\CompilerIdC.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:01.78
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/3.30.3/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler:  
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+      版权所有(C) Microsoft Corporation。保留所有权利。
+      
+      生成启动时间为 2026-02-14 20:13:19。
+      节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)。
+      PrepareForBuild:
+        正在创建目录“Debug\\”。
+        正在创建目录“Debug\\CompilerIdCXX.tlog\\”。
+      InitializeBuildStatus:
+        正在创建“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+      ClCompile:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:classic /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc141.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        CMakeCXXCompilerId.cpp
+      Link:
+        D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
+        CompilerIdCXX.vcxproj -> F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\.\\CompilerIdCXX.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_CXX_COMPILER=D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\Hostx86\\x64\\cl.exe
+      FinalizeBuildStatus:
+        正在删除文件“Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild”。
+        正在对“Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate”执行 Touch 任务。
+      已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\3.30.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj”(默认目标)的操作。
+      
+      已成功生成。
+          0 个警告
+          0 个错误
+      
+      已用时间 00:00:00.99
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
+      
+      The CXX compiler identification is MSVC, found in:
+        F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/3.30.3/CompilerIdCXX/CompilerIdCXX.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1r7t02"
+      binary: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1r7t02"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1r7t02'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_302e5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2026-02-14 20:13:21。
+        节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1r7t02\\cmTC_302e5.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_302e5.dir\\Debug\\”。
+          正在创建目录“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1r7t02\\Debug\\”。
+          正在创建目录“cmTC_302e5.dir\\Debug\\cmTC_302e5.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_302e5.dir\\Debug\\cmTC_302e5.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_302e5.dir\\Debug\\\\" /Fd"cmTC_302e5.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\Program Files (x86)\\cmake-3.30.3-windows-x86_64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_302e5.dir\\Debug\\\\" /Fd"cmTC_302e5.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "D:\\Program Files (x86)\\cmake-3.30.3-windows-x86_64\\share\\cmake-3.30\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+          
+        Link:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1r7t02\\Debug\\cmTC_302e5.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1r7t02/Debug/cmTC_302e5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1r7t02/Debug/cmTC_302e5.lib" /MACHINE:X64  /machine:x64 cmTC_302e5.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_302e5.vcxproj -> F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1r7t02\\Debug\\cmTC_302e5.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_302e5.dir\\Debug\\cmTC_302e5.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_302e5.dir\\Debug\\cmTC_302e5.tlog\\cmTC_302e5.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1r7t02\\cmTC_302e5.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.56
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27045.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-yhqjcn"
+      binary: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-yhqjcn"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
+      CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-yhqjcn'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_c0001.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2026-02-14 20:13:23。
+        节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yhqjcn\\cmTC_c0001.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c0001.dir\\Debug\\”。
+          正在创建目录“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yhqjcn\\Debug\\”。
+          正在创建目录“cmTC_c0001.dir\\Debug\\cmTC_c0001.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c0001.dir\\Debug\\cmTC_c0001.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c0001.dir\\Debug\\\\" /Fd"cmTC_c0001.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\Program Files (x86)\\cmake-3.30.3-windows-x86_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c0001.dir\\Debug\\\\" /Fd"cmTC_c0001.dir\\Debug\\vc141.pdb" /Gd /TP /errorReport:queue "D:\\Program Files (x86)\\cmake-3.30.3-windows-x86_64\\share\\cmake-3.30\\Modules\\CMakeCXXCompilerABI.cpp"
+          CMakeCXXCompilerABI.cpp
+          
+        Link:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yhqjcn\\Debug\\cmTC_c0001.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-yhqjcn/Debug/cmTC_c0001.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-yhqjcn/Debug/cmTC_c0001.lib" /MACHINE:X64  /machine:x64 cmTC_c0001.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_c0001.vcxproj -> F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yhqjcn\\Debug\\cmTC_c0001.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_c0001.dir\\Debug\\cmTC_c0001.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_c0001.dir\\Debug\\cmTC_c0001.tlog\\cmTC_c0001.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-yhqjcn\\cmTC_c0001.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:01.27
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'CXX': D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/HostX86/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.16.27045.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt:106 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1kk9ea"
+      binary: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1kk9ea"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMake;F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/absl/copts"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-1kk9ea'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_d1306.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2026-02-14 20:13:26。
+        节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\cmTC_d1306.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_d1306.dir\\Debug\\”。
+          正在创建目录“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\Debug\\”。
+          正在创建目录“cmTC_d1306.dir\\Debug\\cmTC_d1306.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_d1306.dir\\Debug\\cmTC_d1306.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1306.dir\\Debug\\\\" /Fd"cmTC_d1306.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_d1306.dir\\Debug\\\\" /Fd"cmTC_d1306.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\src.c"
+          src.c
+          
+        F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\cmTC_d1306.vcxproj]
+        已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\cmTC_d1306.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\cmTC_d1306.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\src.c(1): fatal error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1kk9ea\\cmTC_d1306.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.69
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt:106 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-rct1ss"
+      binary: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-rct1ss"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMake;F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/absl/copts"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-rct1ss'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_93c9c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2026-02-14 20:13:27。
+        节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\cmTC_93c9c.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_93c9c.dir\\Debug\\”。
+          正在创建目录“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\Debug\\”。
+          正在创建目录“cmTC_93c9c.dir\\Debug\\cmTC_93c9c.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_93c9c.dir\\Debug\\cmTC_93c9c.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93c9c.dir\\Debug\\\\" /Fd"cmTC_93c9c.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_93c9c.dir\\Debug\\\\" /Fd"cmTC_93c9c.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\Debug\\cmTC_93c9c.exe" /INCREMENTAL /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-rct1ss/Debug/cmTC_93c9c.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-rct1ss/Debug/cmTC_93c9c.lib" /MACHINE:X64  /machine:x64 cmTC_93c9c.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\cmTC_93c9c.vcxproj]
+        已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\cmTC_93c9c.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\cmTC_93c9c.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rct1ss\\cmTC_93c9c.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.79
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "D:/Program Files (x86)/cmake-3.30.3-windows-x86_64/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt:106 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-5eslnv"
+      binary: "F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-5eslnv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_MODULE_PATH: "F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMake;F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/absl/copts"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-5eslnv'
+        
+        Run Build Command(s): "D:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/MSBuild/15.0/Bin/MSBuild.exe" cmTC_c4a57.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=15.0 /v:n
+        用于 .NET Framework 的 Microsoft (R) 生成引擎版本 15.9.21+g9802d43bc3
+        版权所有(C) Microsoft Corporation。保留所有权利。
+        
+        生成启动时间为 2026-02-14 20:13:29。
+        节点 1 上的项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\cmTC_c4a57.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_c4a57.dir\\Debug\\”。
+          正在创建目录“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\Debug\\”。
+          正在创建目录“cmTC_c4a57.dir\\Debug\\cmTC_c4a57.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_c4a57.dir\\Debug\\cmTC_c4a57.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+        ClCompile:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4a57.dir\\Debug\\\\" /Fd"cmTC_c4a57.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.16.27045 版
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          
+          cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c4a57.dir\\Debug\\\\" /Fd"cmTC_c4a57.dir\\Debug\\vc141.pdb" /Gd /TC /errorReport:queue "F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\CheckFunctionExists.c"
+          CheckFunctionExists.c
+          
+        Link:
+          D:\\Program Files (x86)\\Microsoft Visual Studio\\2017\\Professional\\VC\\Tools\\MSVC\\14.16.27023\\bin\\HostX86\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\Debug\\cmTC_c4a57.exe" /INCREMENTAL /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG:FASTLINK /PDB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-5eslnv/Debug/cmTC_c4a57.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:/Navigation_Learn/GNSS_INS/KF-GINS/build/CMakeFiles/CMakeScratch/TryCompile-5eslnv/Debug/cmTC_c4a57.lib" /MACHINE:X64  /machine:x64 cmTC_c4a57.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\cmTC_c4a57.vcxproj]
+        已完成生成项目“F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\cmTC_c4a57.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\cmTC_c4a57.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [F:\\Navigation_Learn\\GNSS_INS\\KF-GINS\\build\\CMakeFiles\\CMakeScratch\\TryCompile-5eslnv\\cmTC_c4a57.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.73
+        
+      exitCode: 1
+...

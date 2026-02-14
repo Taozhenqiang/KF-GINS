@@ -1,0 +1,228 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "absl_raw_logging_internal::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_spinlock_wait::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_log_severity::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_malloc_internal::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_throw_delegate::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_base::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_scoped_set_env::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_strerror::@1f38c3b7239dee202471"
+		},
+		{
+			"id" : "absl_stacktrace::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_hashtablez_sampler::@839b686770fb6aaedd52"
+		},
+		{
+			"id" : "absl_raw_hash_set::@839b686770fb6aaedd52"
+		},
+		{
+			"id" : "absl_symbolize::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_examine_stack::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_failure_signal_handler::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_debugging_internal::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_leak_check::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_demangle_internal::@5e0b8a4fe0f8372d34ad"
+		},
+		{
+			"id" : "absl_flags_config::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_commandlineflag::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_program_name::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_usage::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_reflection::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_marshalling::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_private_handle_accessor::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_commandlineflag_internal::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_usage_internal::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_parse::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_flags_internal::@27b451ee357b556b814d"
+		},
+		{
+			"id" : "absl_low_level_hash::@f8aa58d3c311cb47b335"
+		},
+		{
+			"id" : "absl_hash::@f8aa58d3c311cb47b335"
+		},
+		{
+			"id" : "absl_city::@f8aa58d3c311cb47b335"
+		},
+		{
+			"id" : "absl_exponential_biased::@ed3c8fc206852afec6c2"
+		},
+		{
+			"id" : "absl_periodic_sampler::@ed3c8fc206852afec6c2"
+		},
+		{
+			"id" : "absl_int128::@38d81af93a540801828b"
+		},
+		{
+			"id" : "absl_random_distributions::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_pool_urbg::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_seed_gen_exception::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_seed_material::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_seed_sequences::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_randen::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_randen_hwaes::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_distribution_test_util::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_platform::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_randen_slow::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_random_internal_randen_hwaes_impl::@a1568ef19eeefd99c442"
+		},
+		{
+			"id" : "absl_status::@c3cf8ccc8b83291181ab"
+		},
+		{
+			"id" : "absl_strings_internal::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_statusor::@c3cf8ccc8b83291181ab"
+		},
+		{
+			"id" : "absl_strings::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_str_format_internal::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_cord_internal::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_cordz_functions::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_time::@a753de50bec0da6e214b"
+		},
+		{
+			"id" : "absl_cord::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_cordz_handle::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_cordz_sample_token::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_cordz_info::@e26413e31b89d4a4cabe"
+		},
+		{
+			"id" : "absl_graphcycles_internal::@50e13b0e4c4447c5d715"
+		},
+		{
+			"id" : "absl_synchronization::@50e13b0e4c4447c5d715"
+		},
+		{
+			"id" : "absl_civil_time::@a753de50bec0da6e214b"
+		},
+		{
+			"id" : "absl_time_zone::@a753de50bec0da6e214b"
+		},
+		{
+			"id" : "absl_bad_any_cast_impl::@b54c716fdb146c128b04"
+		},
+		{
+			"id" : "absl_bad_optional_access::@b54c716fdb146c128b04"
+		},
+		{
+			"id" : "absl_bad_variant_access::@b54c716fdb146c128b04"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@19c0d2ba6ffb63de541d",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : "ThirdParty/abseil-cpp-20220623.1",
+		"source" : "ThirdParty/abseil-cpp-20220623.1"
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

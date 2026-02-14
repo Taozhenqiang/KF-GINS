@@ -1,0 +1,436 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CC7307E3-C7F8-3C19-BBEB-102726019A64}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Navigation_Learn\GNSS_INS\KF-GINS\src;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\eigen-3.3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Navigation_Learn\GNSS_INS\KF-GINS\src;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\eigen-3.3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Navigation_Learn\GNSS_INS\KF-GINS\src;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\eigen-3.3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>F:\Navigation_Learn\GNSS_INS\KF-GINS\src;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\eigen-3.3.9;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\bin\cmake.exe" -SF:/Navigation_Learn/GNSS_INS/KF-GINS -BF:/Navigation_Learn/GNSS_INS/KF-GINS/build --check-stamp-file F:/Navigation_Learn/GNSS_INS/KF-GINS/build/ThirdParty/abseil-cpp-20220623.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTest.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestTargets.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindThreads.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilDll.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilHelpers.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\AbseilConfigureCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\GENERATED_AbseilCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\bin\cmake.exe" -SF:/Navigation_Learn/GNSS_INS/KF-GINS -BF:/Navigation_Learn/GNSS_INS/KF-GINS/build --check-stamp-file F:/Navigation_Learn/GNSS_INS/KF-GINS/build/ThirdParty/abseil-cpp-20220623.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTest.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestTargets.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindThreads.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilDll.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilHelpers.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\AbseilConfigureCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\GENERATED_AbseilCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\bin\cmake.exe" -SF:/Navigation_Learn/GNSS_INS/KF-GINS -BF:/Navigation_Learn/GNSS_INS/KF-GINS/build --check-stamp-file F:/Navigation_Learn/GNSS_INS/KF-GINS/build/ThirdParty/abseil-cpp-20220623.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTest.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestTargets.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindThreads.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilDll.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilHelpers.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\AbseilConfigureCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\GENERATED_AbseilCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule F:/Navigation_Learn/GNSS_INS/KF-GINS/ThirdParty/abseil-cpp-20220623.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\bin\cmake.exe" -SF:/Navigation_Learn/GNSS_INS/KF-GINS -BF:/Navigation_Learn/GNSS_INS/KF-GINS/build --check-stamp-file F:/Navigation_Learn/GNSS_INS/KF-GINS/build/ThirdParty/abseil-cpp-20220623.1/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeDependentOption.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakePackageConfigHelpers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CMakeParseArguments.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTest.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestTargets.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CTestUseLaunchers.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckCSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckIncludeFile.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\CheckLibraryExists.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\DartConfiguration.tcl.in;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindPackageMessage.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\FindThreads.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\GNUInstallDirs.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\Internal\CheckSourceCompiles.cmake;D:\Program Files (x86)\cmake-3.30.3-windows-x86_64\share\cmake-3.30\Modules\WriteBasicConfigVersionFile.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilDll.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\CMake\AbseilHelpers.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\AbseilConfigureCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\ThirdParty\abseil-cpp-20220623.1\absl\copts\GENERATED_AbseilCopts.cmake;F:\Navigation_Learn\GNSS_INS\KF-GINS\build\CMakeFiles\cmake.verify_globs;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ZERO_CHECK.vcxproj">
+      <Project>{0A4C08DE-BECA-310D-A7E2-CDAEF551037B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\types\absl_bad_any_cast_impl.vcxproj">
+      <Project>{883C211A-4F8D-3316-AEE4-C06BC2140F85}</Project>
+      <Name>absl_bad_any_cast_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\types\absl_bad_optional_access.vcxproj">
+      <Project>{05F2D561-63FB-3D2F-952A-8CC1CDE375D1}</Project>
+      <Name>absl_bad_optional_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\types\absl_bad_variant_access.vcxproj">
+      <Project>{747357D2-C341-32F6-A1D6-3345235A7C67}</Project>
+      <Name>absl_bad_variant_access</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_base.vcxproj">
+      <Project>{FA15DE36-00FA-3097-8347-2A92DAA8B970}</Project>
+      <Name>absl_base</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\hash\absl_city.vcxproj">
+      <Project>{CB7686F9-81D8-3637-BB10-E1F7CA01905E}</Project>
+      <Name>absl_city</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\time\absl_civil_time.vcxproj">
+      <Project>{539F644A-860D-3D52-9BE6-E9545D0C25FD}</Project>
+      <Name>absl_civil_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cord.vcxproj">
+      <Project>{1C631E85-2F2F-3872-A264-A5845F76CA07}</Project>
+      <Name>absl_cord</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cord_internal.vcxproj">
+      <Project>{50DDEDA0-5217-3986-B6D9-E2C6C7F29AF0}</Project>
+      <Name>absl_cord_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cordz_functions.vcxproj">
+      <Project>{74690AA2-7302-31CD-83FA-FEA77FB15D02}</Project>
+      <Name>absl_cordz_functions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cordz_handle.vcxproj">
+      <Project>{F7D2108C-1C03-373A-8A86-A877FC6BE5A9}</Project>
+      <Name>absl_cordz_handle</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cordz_info.vcxproj">
+      <Project>{53769A9D-0CDA-3034-AB04-F40545CD5F55}</Project>
+      <Name>absl_cordz_info</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_cordz_sample_token.vcxproj">
+      <Project>{5B380780-8F5E-3E28-A5E5-6B133701E570}</Project>
+      <Name>absl_cordz_sample_token</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_debugging_internal.vcxproj">
+      <Project>{9FAA63C2-1D30-3846-B492-8D774006420F}</Project>
+      <Name>absl_debugging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_demangle_internal.vcxproj">
+      <Project>{E7ADF59B-2B63-3546-AD8B-D7A83A757DF2}</Project>
+      <Name>absl_demangle_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_examine_stack.vcxproj">
+      <Project>{5505860E-22CA-3A75-8F0C-F786610CB49B}</Project>
+      <Name>absl_examine_stack</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\profiling\absl_exponential_biased.vcxproj">
+      <Project>{05F34180-3743-315B-BC13-BF9E24220A02}</Project>
+      <Name>absl_exponential_biased</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_failure_signal_handler.vcxproj">
+      <Project>{7192ACE8-518C-3A7C-A0DC-E526AF947DAC}</Project>
+      <Name>absl_failure_signal_handler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags.vcxproj">
+      <Project>{F3130E40-12D3-35F3-BC4A-779A1200F1F0}</Project>
+      <Name>absl_flags</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_commandlineflag.vcxproj">
+      <Project>{08C98B3C-8EAC-3A5E-9BF5-43DA3F51892C}</Project>
+      <Name>absl_flags_commandlineflag</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_commandlineflag_internal.vcxproj">
+      <Project>{29176002-3583-3A5B-B8B1-5858847A063C}</Project>
+      <Name>absl_flags_commandlineflag_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_config.vcxproj">
+      <Project>{868CCEEF-33AA-3210-B92C-EA1668B61B84}</Project>
+      <Name>absl_flags_config</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_internal.vcxproj">
+      <Project>{33FCEAC7-FDCF-337E-92F2-CD3DDC10B000}</Project>
+      <Name>absl_flags_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_marshalling.vcxproj">
+      <Project>{0D6ECED6-7397-3F90-9035-1FC09008FAD0}</Project>
+      <Name>absl_flags_marshalling</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_parse.vcxproj">
+      <Project>{0C2F0E31-81EA-3E5B-B299-0ED559AC0B92}</Project>
+      <Name>absl_flags_parse</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_private_handle_accessor.vcxproj">
+      <Project>{09704E4F-C281-3E30-B3DF-7371DE7F496A}</Project>
+      <Name>absl_flags_private_handle_accessor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_program_name.vcxproj">
+      <Project>{D4B7C158-24D6-36F5-9B1C-9C2255ED633E}</Project>
+      <Name>absl_flags_program_name</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_reflection.vcxproj">
+      <Project>{DA218AF7-3CFD-3EB5-82DD-086B7707EB2B}</Project>
+      <Name>absl_flags_reflection</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_usage.vcxproj">
+      <Project>{6BA03DE3-1713-36BC-8063-0A041E6B2018}</Project>
+      <Name>absl_flags_usage</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\flags\absl_flags_usage_internal.vcxproj">
+      <Project>{0745D328-BC21-3754-B820-599E0BFA2524}</Project>
+      <Name>absl_flags_usage_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\synchronization\absl_graphcycles_internal.vcxproj">
+      <Project>{ABBC2E8C-F150-30AC-9EAC-D9C876976AE3}</Project>
+      <Name>absl_graphcycles_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\hash\absl_hash.vcxproj">
+      <Project>{B5E5EAB5-377B-3CB1-9FDA-435C9D0F9FF8}</Project>
+      <Name>absl_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\container\absl_hashtablez_sampler.vcxproj">
+      <Project>{E01862CD-DC8A-34CB-ABB4-43B17CFCFC62}</Project>
+      <Name>absl_hashtablez_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\numeric\absl_int128.vcxproj">
+      <Project>{1B225E64-D6FF-3CBC-B181-604CA811E34B}</Project>
+      <Name>absl_int128</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_leak_check.vcxproj">
+      <Project>{45D084D9-6373-38C5-B77D-6DFC3EB10C80}</Project>
+      <Name>absl_leak_check</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_log_severity.vcxproj">
+      <Project>{E516CEA0-A667-3964-97EC-A9F91284FF76}</Project>
+      <Name>absl_log_severity</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\hash\absl_low_level_hash.vcxproj">
+      <Project>{AECE6178-594F-35D5-9CF6-4076E5CE7AEA}</Project>
+      <Name>absl_low_level_hash</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_malloc_internal.vcxproj">
+      <Project>{940E6CE3-361B-3B49-8833-6CF2ED74DE32}</Project>
+      <Name>absl_malloc_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\profiling\absl_periodic_sampler.vcxproj">
+      <Project>{A1BB08C8-268B-39D8-8838-953067DDA4AA}</Project>
+      <Name>absl_periodic_sampler</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_distributions.vcxproj">
+      <Project>{3EE6E556-AC4B-3DB3-92B9-7FFAC29B549F}</Project>
+      <Name>absl_random_distributions</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_distribution_test_util.vcxproj">
+      <Project>{EB7E9AEA-70B3-393B-8C84-E0075C076E4A}</Project>
+      <Name>absl_random_internal_distribution_test_util</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_platform.vcxproj">
+      <Project>{577B1146-35DB-361F-AF15-935B207B8762}</Project>
+      <Name>absl_random_internal_platform</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_pool_urbg.vcxproj">
+      <Project>{0E5B62E9-7CD4-38B7-8C1D-B51DA3AA7FF5}</Project>
+      <Name>absl_random_internal_pool_urbg</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_randen.vcxproj">
+      <Project>{2D50D8D9-DDA1-3722-BF91-640686CCD093}</Project>
+      <Name>absl_random_internal_randen</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_randen_hwaes.vcxproj">
+      <Project>{628CA085-0256-3CB9-AA26-1E4A063D07CA}</Project>
+      <Name>absl_random_internal_randen_hwaes</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_randen_hwaes_impl.vcxproj">
+      <Project>{E086990E-FDBF-3580-AAEA-5D5BF91EC76B}</Project>
+      <Name>absl_random_internal_randen_hwaes_impl</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_randen_slow.vcxproj">
+      <Project>{E8AB3C31-EAE6-390D-A9A4-000AF4A5A98F}</Project>
+      <Name>absl_random_internal_randen_slow</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_internal_seed_material.vcxproj">
+      <Project>{371AA6CF-F7A5-3E4C-8C43-E69D5B803605}</Project>
+      <Name>absl_random_internal_seed_material</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_seed_gen_exception.vcxproj">
+      <Project>{7F955E3A-3AEC-31CC-B66B-8AFA3138715D}</Project>
+      <Name>absl_random_seed_gen_exception</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\random\absl_random_seed_sequences.vcxproj">
+      <Project>{1CA243E3-0CA8-365C-A53C-26D723D4A032}</Project>
+      <Name>absl_random_seed_sequences</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\container\absl_raw_hash_set.vcxproj">
+      <Project>{85434AD3-BC4B-344B-AFE4-99B965FB097B}</Project>
+      <Name>absl_raw_hash_set</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_raw_logging_internal.vcxproj">
+      <Project>{82F62ACB-7B57-37B1-BBE3-59FF35E8DEAE}</Project>
+      <Name>absl_raw_logging_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_scoped_set_env.vcxproj">
+      <Project>{56B2CC5A-DFE8-39B3-9308-2BBD63DB5778}</Project>
+      <Name>absl_scoped_set_env</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_spinlock_wait.vcxproj">
+      <Project>{6E848AA3-1D60-37D6-84AE-D0D51A59AB70}</Project>
+      <Name>absl_spinlock_wait</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_stacktrace.vcxproj">
+      <Project>{9ABFE34D-BBED-3ADD-ACE5-1B92A1701D7C}</Project>
+      <Name>absl_stacktrace</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\status\absl_status.vcxproj">
+      <Project>{E12C6F79-77CD-3096-BA93-CBB6F9ECEA2A}</Project>
+      <Name>absl_status</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\status\absl_statusor.vcxproj">
+      <Project>{2822C359-9C45-32E5-99EE-6F7B8F0805E2}</Project>
+      <Name>absl_statusor</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_str_format_internal.vcxproj">
+      <Project>{1BD49A72-2EB4-3097-8934-01D0571ECE0C}</Project>
+      <Name>absl_str_format_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_strerror.vcxproj">
+      <Project>{D66F7549-1F22-3804-984F-816E10198E3F}</Project>
+      <Name>absl_strerror</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_strings.vcxproj">
+      <Project>{76597801-1CDA-3C1B-BCDB-005841A7CA5F}</Project>
+      <Name>absl_strings</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\strings\absl_strings_internal.vcxproj">
+      <Project>{EB2D8A49-6DB9-30B2-8E67-A50E9F863333}</Project>
+      <Name>absl_strings_internal</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\debugging\absl_symbolize.vcxproj">
+      <Project>{8392DAF6-E953-3C4B-8C89-695C7E3C9008}</Project>
+      <Name>absl_symbolize</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\synchronization\absl_synchronization.vcxproj">
+      <Project>{5BB5C503-BC87-3E22-AEA8-98757FD2936D}</Project>
+      <Name>absl_synchronization</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\base\absl_throw_delegate.vcxproj">
+      <Project>{A0767911-38D6-3631-8A97-E4110DD96619}</Project>
+      <Name>absl_throw_delegate</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\time\absl_time.vcxproj">
+      <Project>{A1782CDA-BCC7-3CAF-AB38-E62E567205AE}</Project>
+      <Name>absl_time</Name>
+    </ProjectReference>
+    <ProjectReference Include="F:\Navigation_Learn\GNSS_INS\KF-GINS\build\ThirdParty\abseil-cpp-20220623.1\absl\time\absl_time_zone.vcxproj">
+      <Project>{46D6E433-D3CB-39D6-B6EA-B112468075FF}</Project>
+      <Name>absl_time_zone</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
